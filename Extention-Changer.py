@@ -10,11 +10,18 @@ try:
         filee=file.split(".")
         if(filee[0]==name):
             os.rename(f"{file}", f"{filee[0]}.{mode}")
+            input("!!Work Done!! Press any key to exit")
             break
     else:
         print("The file name is not in the folder !: ")
         input("Press any key to exit !: ")
 except:
     print("Something Went Wrong !: ")
+
+
+
+
+
+
 
 
